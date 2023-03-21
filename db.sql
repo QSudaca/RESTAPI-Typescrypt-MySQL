@@ -1,0 +1,10 @@
+CREATE TABLE mysql_ts_api;
+
+CREATE TABLE posts {
+    id INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    title VARCHAR(250) NOT NULL,
+    description TEXT NOT NULL,
+    creted_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+}
+
+DESCRIBE posts;
